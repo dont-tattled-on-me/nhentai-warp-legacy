@@ -35,6 +35,6 @@ body {
   filter: drop-shadow(0 0 .75rem #2e2f2f);
 }
 
-.card form input[type="number"] {
+.card form input[type="text"] {
   filter: drop-shadow(0 0 .75rem #2e2f2f);
 }

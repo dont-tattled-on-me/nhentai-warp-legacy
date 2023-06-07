@@ -15,13 +15,15 @@
   padding: 0;
 }
 
-.card .cardBody form input[type="number"] {
+.card .cardBody form input[type="text"] {
   padding: .5rem;
   margin-bottom: 1rem;
   border: none;
   border-radius: 1rem;
   background: #2e2f2f;
   color: whitesmoke;
+  text-align: center;
+  justify-content: center;
 }
 
 .card .cardBody form button[type="submit"] {
