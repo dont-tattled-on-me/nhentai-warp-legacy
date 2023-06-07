@@ -7,6 +7,7 @@
 /* Components */
 @import url(./components/navBar.css);
 @import url(./components/container.css);
+@import url(./components/card.css);
 @import url(./components/footer.css);
 
 @import url(./components/classToggling.css);
