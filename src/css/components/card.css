@@ -1,0 +1,38 @@
+.card {
+  width: 18rem;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.card * {
+  color: #2e2f2f;
+}
+
+.card .cardHeader {
+  margin: 0;
+  padding: 0;
+}
+
+.card .cardBody form input[type="number"] {
+  padding: .5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background: #2e2f2f;
+  color: whitesmoke;
+}
+
+.card .cardBody form button[type="submit"] {
+  padding: 1rem;
+  background: #fe6e6f;
+  color: whitesmoke;
+  border-radius: 1rem;
+  transition: all .3s;
+}
+
+.card .cardBody form button[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(.85, .85);
+}

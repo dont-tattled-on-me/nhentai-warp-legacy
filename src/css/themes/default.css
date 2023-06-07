@@ -30,3 +30,11 @@ body {
 #container #md table td:nth-child(2) {
   border-left: 1px solid #2e2f2f;
 }
+
+.card {
+  filter: drop-shadow(0 0 .75rem #2e2f2f);
+}
+
+.card form input[type="number"] {
+  filter: drop-shadow(0 0 .75rem #2e2f2f);
+}
