@@ -1,0 +1,32 @@
+.dark {
+  background: #2e2f2f !important;
+  color: whitesmoke;
+}
+
+.dark * {
+  color: whitesmoke
+}
+
+.dark #footer {
+  background: #2e2f2f;
+}
+
+.dark #container #md table th {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.dark #container #md table th:nth-child(1) {
+  border-right: 1px solid whitesmoke;
+}
+
+.dark #container #md table th:nth-child(2) {
+  border-left: 1px solid whitesmoke;
+}
+
+.dark #container #md table td:nth-child(1) {
+  border-right: 1px solid whitesmoke;
+}
+
+.dark #container #md table td:nth-child(2) {
+  border-left: 1px solid whitesmoke;
+}
