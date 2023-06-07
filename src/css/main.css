@@ -9,6 +9,8 @@
 @import url(./components/container.css);
 @import url(./components/footer.css);
 
+@import url(./components/classToggling.css);
+
 * {
   font-family: 'IBM Plex Sans Thai', sans-serif;
   transition: all .5s;
