@@ -3,6 +3,8 @@ const id = params.get('id')
 
 console.log(id);
 
-if (id != undefined && id != null && id != '') {
+if (id == undefined && id == null && id == '') {
+  document.querySelector('#searchBox').classList.value = ""
+} else {
   document.querySelector('#searchBox').classList.value = "dpTog"
 }
